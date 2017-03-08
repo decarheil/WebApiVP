@@ -1,9 +1,10 @@
-# README #
+# README
 
 Web API using AWS signature V2 requests authentication.
 
-### SERVICES ### 
-##### AUTHENTICATE #####
+### SERVICES
+
+##### AUTHENTICATE
 
 Authenticate user by email and password
 
@@ -16,7 +17,7 @@ Body :
 | Email | test@exemple.com |
 | Password | mdp |
 
-##### AUTHORIZE ##### 
+##### AUTHORIZE 
 
 Get request authorization (AWS signature V2 like).
 
@@ -29,7 +30,7 @@ Headers :
 | Authorization | AWS AKIAIOSFODNN7EXAMPLE:UbAQNRMJQtsQUAArKxxgeDsAyXc= |
 | X-Amz-Date | Wed, 08 Mar 2017 10:30:29 GMT |
 
-##### GENERATE API KEY ##### 
+##### GENERATE API KEY 
 
 Generate AWS API key.
 
@@ -41,7 +42,7 @@ Headers :
 | ------ | ------ |
 | X-Amz-Date | Wed, 08 Mar 2017 10:30:29 GMT |
 
-### USERS ###
+### USERS
 
 | ID | EMAIL | PASSWORD | ACCESSKEY |
 | ------ | ------ | ------ | ------ |
